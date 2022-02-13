@@ -6,10 +6,15 @@ Authors: Ahmed Imtiaz Humayun<sup>1</sup>, Randall Balestriero<sup>2</sup>, Anas
 
 ## Requirements:
 ```
+## For r-KMeans
 cvxpy>=1.1.5
 gurobi>=9.1.1 
 mosek # can also be used with cvxpy.scs 
 scikit-learn
+
+## For KMedoids and cardinality-KMeans
+scikit-learn-extra
+k-means-constrained
 ```
 ## Usage:
 Run the `two_moons.ipynb` to reproduce results from the paper.
