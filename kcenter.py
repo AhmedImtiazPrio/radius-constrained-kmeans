@@ -4,6 +4,7 @@ from sklearn.metrics import pairwise_distances
 class KCenter(object):
     """
     Greedy KCenter algorithm
+    Adopted from matthklein/fair_k_center_clustering
     """
     def __init__(self,n_clusters, **kwargs):
         self.n_clusters = n_clusters
