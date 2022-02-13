@@ -8,7 +8,19 @@ Authors: Ahmed Imtiaz Humayun<sup>1</sup>, Randall Balestriero<sup>2</sup>, Anas
 ```
 cvxpy>=1.1.5
 gurobi>=9.1.1 
-mosek # optional, can also be used with cvxpy.scs 
-sklearn 
-k-means-constrained
+mosek # can also be used with cvxpy.scs 
+scikit-learn
+```
+## Usage:
+Run the `two_moons.ipynb` to reproduce results from the paper.
+
+## Cite:
+```
+@inproceedings{humayun2022rk,
+  title={No more than 6ft Apart: Robust K-Means via Radius Upper Bounds},
+  author={Humayun, Ahmed Imtiaz and Balestriero, Randall and Kyrillidis, Anastasios and Baraniuk, Richard},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2022},
+  organization={IEEE}
+}
 ```
